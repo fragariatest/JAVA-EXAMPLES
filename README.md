@@ -1,4 +1,5 @@
 # JAVA-EXAMPLES
+//CALCULATE FACTORIAL USING RECURSION
 Java Programs
 package calculate.factorial.using.recursion;
 import java.util.Scanner; //example 1 
@@ -8,7 +9,7 @@ public class Fact {
 			return 1;
 		}
 		else{
-			return n * factorial(n-1);
+		    return n * factorial(n-1);
 		}	
 	}
 	public static void main(String[] args) throws Exception {
